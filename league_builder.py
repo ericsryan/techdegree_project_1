@@ -68,11 +68,8 @@ Our first practice will be held on July 1st of this year at 3:00pm.\n\n\
 Sincerely,\nThe Coach".format(player[3], player[0], team)
 )
 
-
-
-
     # Begin script:
-    with open('techdegree_project_1\soccer_players.csv', newline = '') as csvfile:
+    with open('soccer_players.csv', newline='\n') as csvfile:
         file_reader = csv.reader(csvfile, delimiter = ',')
         for player in file_reader:
             player_list.append(player)
