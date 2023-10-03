@@ -1,4 +1,4 @@
-# Team Assignment Program
+# Build a Soccer League
 
 This Python program reads a CSV file containing a list of players and assigns them to three teams - Sharks, Dragons, and Raptors. It then generates a text file with the team rosters and creates individual letters for each player's family.
 
